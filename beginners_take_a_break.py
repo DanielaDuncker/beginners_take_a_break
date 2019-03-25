@@ -11,4 +11,4 @@ while break_count < total_breaks:
     webbrowser.open("https://www.youtube.com/watch?v=ZbZSe6N_BXs")
     break_count = break_count + 1
 
-schedule.every().day.at("08:00").do(break_count)
+schedule.every().day.at("09:00").do(break_count)
